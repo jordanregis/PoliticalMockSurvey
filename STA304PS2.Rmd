@@ -246,7 +246,7 @@ my_data %>%
 ```
 In Figure 5, we display responses to the question “How much money would you like to see go toward benefiting those on welfare?” These results were surprising as it appears that most Ontarians favour keeping welfare funding at the level it currently is with an even more surprisingly high number of respondents suggesting that spending was reduced in this sector. While we still see a large proportion of respondents insisting on increases to funding, this does not come close to outweighing the proportion of participants that were against this idea. Thus, it is clear that enacting a policy to increase welfare payments would do more harm than good for the NDP’s chances of winning.
 
-```{r,fig.cap='Figure 6',echo=FALSE,warning=FALSE}
+```{r,echo=FALSE,warning=FALSE}
 # Bar plot for question "On a scale from 1 to 5, how important do you think the preservation of Ontario's environment is?"
 my_data %>%
   ggplot(aes(x = Environment)) + 
