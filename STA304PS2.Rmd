@@ -303,7 +303,7 @@ Lastly, to make improvements to the visuals of our study, we would have liked to
 
 
 # Appendix
- Code for this study, as well as our method of defining our probability values, can be found at: https://github.com/kashaun52/project-2-jordan-kash-
+ Code for this study, as well as our method of defining our probability values, can be found at: https://github.com/jordanregis/STA304PS2Survey/blob/main/Appendix.Rmd
 
 # References 
  cesR web file (ces2015_web) - Fournier, Patrick, Fred Cutler, Stuart 
