@@ -145,7 +145,7 @@ my_data %>%
   labs(title="Income Tax Rate Reccomendation for 
        Annual Income under $40,000 by Voters",
        x = "Reccomendation on Tax Rate",
-       y = "Number of responses",
+       y = "Number of Responses",
        caption = "Figure 3.1 - Source: Simulated dataset.") +
   theme_minimal()
 ```
@@ -157,7 +157,7 @@ my_data %>%
   labs(title="Income Tax Rate Reccomendation for 
        Annual Income between $40,000 and $200,000 by Voters",
        x = "Reccomendation on Tax Rate",
-       y = "Number of responses",
+       y = "Number of Responses",
        caption = "Figure 3.2 - Source: Simulated dataset.") +
   theme_minimal()
 ```
@@ -169,7 +169,7 @@ my_data %>%
   labs(title="Income Tax Rate Reccomendation for 
        Annual Income over $200,000 by Voters",
         x = "Reccomendation on Tax Rate",
-        y = "Number of responses",
+        y = "Number of Responses",
         caption = "Figure 3.3 - Source: Simulated dataset.") +
   theme_minimal()
 ```
@@ -181,7 +181,7 @@ my_data %>%
   geom_bar(color = 'black',fill = "steelblue") +
   labs(title="Healthcare Spending Reccomendation by voters",
          x = "Spending Reccomendation", 
-         y = "Number of responses",
+         y = "Number of Responses",
          caption = "Figure 4 - Source: Simulated dataset.") + 
   theme_minimal()
 ```
@@ -193,7 +193,7 @@ my_data %>%
   geom_bar(color = 'black',fill = "steelblue") + 
   labs(title="Welfare Spending Reccomendations by Voters",
        x = "Spending Reccomendation",
-       y = "Number of responses",
+       y = "Number of Responses",
        caption = "Figure 5 - Source: Simulated dataset.") +
   theme_minimal()
 ```
@@ -205,7 +205,7 @@ my_data %>%
   geom_bar(color = 'black',fill = "steelblue") + 
   labs(title="Importantance of Protecting the Environment to Voters",
        x = "Level of Importance",
-       y = "Number of responses",
+       y = "Number of Responses",
        caption = "1 = Not Important, 5 = Very Important.                 Figure 6 - Source: Simulated dataset.") +
   theme_minimal()
 ```
@@ -217,7 +217,7 @@ my_data %>%
   geom_bar(color = 'black',fill = "firebrick1") + 
   labs(title="Opinions on current Hydroelectricity Prices in Ontario",
        x = "Opinion",
-       y = "Number of responses",
+       y = "Number of Responses",
        caption = "Figure 7 - Source: Simulated dataset.") +
   theme_minimal()
 ```
@@ -229,7 +229,7 @@ my_data %>%
   geom_bar(color = 'black',fill = "deepskyblue") + 
   labs(title="Oulets that voters use most to judge a candidate",
        x = "Media Outlets",
-       y = "Number of responses",
+       y = "Number of Responses",
        caption = "Figure 8 - Source: Simulated dataset.") + 
   theme_minimal()
 ```
