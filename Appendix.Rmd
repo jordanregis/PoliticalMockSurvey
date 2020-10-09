@@ -10,7 +10,10 @@ knitr::opts_chunk$set(echo = TRUE)
 ```
 
 ```{r}
-# The main focus of this code is to first, generate a sample frame of 1,000,000 responses to our survey, next we take a sample of 5,000 of these responses which we will analyze. In a series of Bar Graphs this code shows how our 5,000 respondent sample would respond if actually given our survey.
+# The main focus of this code is to first, generate a sample frame of 1,000,000 responses to our survey, 
+# next we take a sample of 5,000 of these responses which we will analyze. 
+# In a series of Bar Graphs this code shows how our 5,000 respondent sample 
+# would respond if actually given our survey.
 ```
 
 

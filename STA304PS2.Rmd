@@ -303,7 +303,10 @@ Lastly, to make improvements to the visuals of our study, we would have liked to
 
 
 # Appendix
- Code for this study, as well as our method of defining our probability values, can be found at: https://github.com/jordanregis/STA304PS2Survey/blob/main/Appendix.Rmd
+ 
+ Code for this study can be found at: https://github.com/jordanregis/STA304PS2Survey/blob/main/Appendix.Rmd
+
+A discussion for how we determined the probability weights for each response is included at: https://github.com/jordanregis/STA304PS2Survey/blob/main/Probability%20Discussion  
 
 # References 
  cesR web file (ces2015_web) - Fournier, Patrick, Fred Cutler, Stuart 
@@ -334,7 +337,8 @@ Lastly, to make improvements to the visuals of our study, we would have liked to
  https://www.surveymonkey.com/r/3JM565P 
 
 Screenshots of our survey questions can be found below. 
-```{r}
+
+```{r, echo=FALSE}
 knitr::include_graphics('Question 1.png')
 knitr::include_graphics('Question 2.png')
 knitr::include_graphics('Question 3.png')
