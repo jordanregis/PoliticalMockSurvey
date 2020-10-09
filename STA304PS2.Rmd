@@ -278,7 +278,7 @@ In Figure 7, the responses to the question “What do you think about the curren
 my_data %>%
   ggplot(aes(x = Gather_info)) + 
   geom_bar(color = 'black',fill = "deepskyblue") + 
-  labs(title="Oulets that voters use most to judge a candidate",
+  labs(title="Oulets that Voters use most to Judge a Candidate",
        x = "Media Outlets",
        y = "Number of Responses",
        caption = "Figure 8 - Source: Simulated dataset.") + 
