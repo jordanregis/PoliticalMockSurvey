@@ -1,1 +1,1 @@
-# STA304PS2Survey
+# STA304 Problem Set 2 Political Survey
